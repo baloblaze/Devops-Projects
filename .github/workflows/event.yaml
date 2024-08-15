@@ -34,4 +34,4 @@ jobs:
         with:
           context: applications/docker_cicd_github_action/.
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:${{ env.IMAGE_NAME }
+          tags: ${{ secrets.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:${{ env.IMAGE_NAME }}
